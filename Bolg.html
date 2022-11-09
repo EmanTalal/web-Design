@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width , initial-scale=1.0">
+    <title>University Website Desing</title>
+    <link  href="style.css" rel="stylesheet" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"> <img src="imags/eductionn.jpg" >  </a>
+                <div class="nav-links" id="navLinks">
+
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="Bolg.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i> 
+            </nav>
+                <h1>Our Certificate & Online Programs For 2022</h1>
+        </section>
+
+
+        <!-- ------blog page content--- -->
+
+            <section class="blog-content">
+                <div class="row">
+                    <div class="blog-left">
+                        <img src="imags/Graduation.png">
+                        <h2>Our Certificate & Online Programs For 2022</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione in delectus esse eligendi ea reiciendis commodi veniam dignissimos. Nisi iure recusandae quas vero veritatis, sunt pariatur sit debitis beatae officiis.</p>
+                        <br>
+                        <p>Education in India can be quite expensive but with online educational programs in India, costs can be reduced. This is because an online education system allows schools and universities to save money on overhead costs, making it a cost-efficient means of imparting education.</p>
+                        <br>
+                        <p>Another of the important benefits that online education offers make students make technology a part of their everyday routines. With online classes, online learning platforms, and research is done online, students are better able to cope with technology. Since technology is going to be such an integral part of every industry one can think of in the future, being comfortable with it is a great idea.</p>
+                        <br>
+                        <p>It is important for those pursuing one of the online educational programs in India to learn how to cope. The most important way to do so is to include some screen-free time every day no matter what. Including some form of physical exercise is also a good idea and it will relieve any back and neck pain that has resulted from attending online classes. Talking with friends and family and spending quality time with them is also a wonderful way of keeping up with health.
+                        </p>
+
+
+
+                        <div class="comment-box">
+                                <h3>Leave a comment</h3>
+
+                                <form class="comment-form"> 
+                                        <input type="text" placeholder="Enter Name">
+                                        <input type="email" placeholder="Enter Email">
+                                        <textarea  rows="5" placeholder="Your Comment"></textarea>
+                                        
+                                        <button type="submit" class="hero-btn red-btn"> POST COMMENT</button>
+
+
+                                         
+                                </form>
+
+                        </div>
+
+                    </div>
+                    <div class="blog-right">
+                        <h3>Post Categories</h3>
+                        <div>
+                            <span>Business Analytics</span>
+                            <span>21</span>
+                        </div>
+                        <div>
+                            <span>Data Science</span>
+                            <span>28</span>
+                        </div>
+
+                        <div>
+                            <span>Machine Learning </span>
+                            <span>15</span>
+                        </div>
+
+                        <div>
+                            <span> Computer Science</span>
+                            <span>15</span>
+                        </div>
+
+                        <div>
+                            <span> AutoCAD</span>
+                            <span>42</span>
+                        </div>
+
+                        <div>
+                            <span>Jouranlism </span>
+                            <span>22</span>
+                        </div>
+
+                        <div>
+                            <span> Commerce</span>
+                            <span>30</span>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </section>
+
+         
+        
+
+
+
+
+
+
+            <!--------Footer------>
+            <section class="footer">
+                <h4>ABOUT US</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pellentesque aliqute turpis nulla, eleifend faucibue est<br> sollicitudin ut.Maecenas ut veneatis ex , et dapibus purus.
+                    </p>
+
+                    <div class="icons">
+                    <i class="fa fa-facebook" ></i>
+                    <i class="fa fa-instagram" ></i>
+                    <i class="fa fa-linkedin" ></i>
+                </div>
+                <p>Made with By Easy Tutorials<i class="fa fa-heart-o" > </i>
+                </p>
+            </section>
+
+
+
+        <script>
+
+            // ------JavaScript for Toggle Mneu------
+            var navLinks=document.getElementById("navLinks"); 
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+
+
+
+</body>
+</html>
